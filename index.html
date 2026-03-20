@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelSites - Static Version</title>
+  <style>
+    body{margin:0;font-family:Arial,sans-serif;background:#03101f;color:#f4f8ff;}
+    .hero{padding:30px;text-align:center;background:url('https://images.pexels.com/photos/146191/pexels-photo-146191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') center/cover no-repeat;}
+    .hero h1{font-size:2.4rem;text-shadow:0 0 18px rgba(0,0,0,0.45);}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;padding:24px;}
+    .card{background:rgba(2,12,28,0.75);border:1px solid rgba(125,211,252,0.3);border-radius:16px;overflow:hidden;box-shadow:0 12px 28px rgba(0,0,0,0.4);}
+    .card img{width:100%;height:150px;object-fit:cover;}
+    .card .body{padding:14px;}
+    .card h3{margin:.2rem 0;}
+    .card p{font-size:.9rem;line-height:1.35;}
+    .btn{display:inline-block;padding:.52rem 1rem;background:#06b6d4;color:#fff;border-radius:9px;text-decoration:none;font-weight:600;margin-top:10px;}
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>TravelSites static preview</h1>
+    <p>Static output from Flask dynamic template; deploy on Vercel/Netlify/GitHub Pages.</p>
+  </section>
+  <section class="cards">
+    <article class="card"><img src="https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?w=1200&h=800&fit=crop"><div class="body"><h3>Thailand</h3><p>Beach paradise, temples, street food and culture.</p><a href="#" class="btn">Open</a></div></article>
+    <article class="card"><img src="https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?w=1200&h=800&fit=crop"><div class="body"><h3>France</h3><p>Eiffel Tower, Louvre, wine, history and romance.</p><a href="#" class="btn">Open</a></div></article>
+    <article class="card"><img src="https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?w=1200&h=800&fit=crop"><div class="body"><h3>Spain</h3><p>Gaudí architecture, tapas, vibrant festivals and beaches.</p><a href="#" class="btn">Open</a></div></article>
+    <article class="card"><img src="https://images.pexels.com/photos/1797161/pexels-photo-1797161.jpeg?w=1200&h=800&fit=crop"><div class="body"><h3>Italy</h3><p>Rome ruins, Venice canals, Tuscan food and art.</p><a href="#" class="btn">Open</a></div></article>
+  </section>
+</body>
+</html>
